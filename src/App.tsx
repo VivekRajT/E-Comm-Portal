@@ -11,6 +11,7 @@ import { auth } from "./firebase";
 import { getUser } from "./redux/api/userAPI";
 import { userExist, userNotExist } from "./redux/reducer/userReducer";
 import { RootState } from "./redux/store";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Home = lazy(() => import("./pages/_home"));
 const Search = lazy(() => import("./pages/search"));
